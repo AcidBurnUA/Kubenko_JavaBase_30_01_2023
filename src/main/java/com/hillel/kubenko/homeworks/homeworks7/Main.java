@@ -18,8 +18,13 @@ public class Main {
                 break;
             } else {
                 System.out.println("Невірно");
-                a++;
+                if (number < result) {
+                    System.out.println("Бери число більше");
+                } else if (number > result) {
+                    System.out.println("Бери число менше");
+                    a++;
 
+                }
             }
         }
     }
