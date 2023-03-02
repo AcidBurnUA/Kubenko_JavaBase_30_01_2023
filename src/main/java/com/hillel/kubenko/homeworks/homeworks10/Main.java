@@ -52,7 +52,7 @@ public class Main {
         for (int i = 0; i < first.length; i++) {
             if (first[i] == second[i]) {
                 matches++;
-                System.out.println("Збіги: " +i);
+                System.out.println("Збіги в "+i+" елементі");
             }
         }
 
