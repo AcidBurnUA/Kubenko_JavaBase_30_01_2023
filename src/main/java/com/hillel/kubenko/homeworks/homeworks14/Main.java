@@ -19,7 +19,6 @@ public class Main {
         user2.setWeight(65);
         user2.setPressure(115);
         user2.setSteps(9000);
-        // Печать информации о пользователях
         user1.printAccountInfo();
         user2.printAccountInfo();
 
